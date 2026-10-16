@@ -13,6 +13,15 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《巴黎评论·女性作家访谈》完整讲解</title>
+      <guid isPermaLink="false">urn:tingye:episode:9d392539b29543a5a1297f1b8b4fe886</guid>
+      <pubDate>Fri, 16 Oct 2026 11:51:06 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/9d392539b29543a5a1297f1b8b4fe886.mp3" length="125946669" type="audio/mpeg" />
+      <itunes:duration>7872</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《克林索尔的最后夏天》完整讲解</title>
       <guid isPermaLink="false">urn:tingye:episode:9207f2174d6a467c9dd347adde8c07b0</guid>
       <pubDate>Fri, 16 Oct 2026 11:51:06 GMT</pubDate>
