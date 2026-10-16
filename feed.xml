@@ -13,6 +13,15 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《心灵的面具》完整讲解</title>
+      <guid isPermaLink="false">urn:tingye:episode:13cc77ce399349018544452e7f4d76c6</guid>
+      <pubDate>Fri, 16 Oct 2026 15:04:29 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/13cc77ce399349018544452e7f4d76c6.mp3" length="61137069" type="audio/mpeg" />
+      <itunes:duration>3821</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《心理治疗如何改变人》完整讲解</title>
       <guid isPermaLink="false">urn:tingye:episode:33b43fe1d733401fbf67bce8c54a3901</guid>
       <pubDate>Fri, 16 Oct 2026 15:04:29 GMT</pubDate>
