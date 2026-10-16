@@ -13,6 +13,15 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《她来自马里乌波尔》完整讲解</title>
+      <guid isPermaLink="false">urn:tingye:episode:63aa0834b14c46729a14ae3465a99f00</guid>
+      <pubDate>Fri, 16 Oct 2026 11:51:06 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/63aa0834b14c46729a14ae3465a99f00.mp3" length="73946541" type="audio/mpeg" />
+      <itunes:duration>4622</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《爱情刽子手》完整讲解</title>
       <guid isPermaLink="false">urn:tingye:episode:e296634fa77344edaf26c54f4e9ccc04</guid>
       <pubDate>Fri, 16 Oct 2026 11:20:48 GMT</pubDate>
