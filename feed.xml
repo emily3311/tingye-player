@@ -12,5 +12,14 @@
     <itunes:type>episodic</itunes:type>
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover.png" />
+    <item>
+      <title>试听 · 把读书变成一个小行动</title>
+      <guid isPermaLink="false">urn:tingye:episode:c27619cc5fbe440d8ccb85cf296fcfc9</guid>
+      <pubDate>Fri, 16 Oct 2026 07:44:05 GMT</pubDate>
+      <description>由听页制作的听书音频。朗读音色：CosyVoice · 示例音色。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/c27619cc5fbe440d8ccb85cf296fcfc9.mp3" length="1013037" type="audio/mpeg" />
+      <itunes:duration>63</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
