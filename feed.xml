@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>听页 · 我的听书</title>
+    <link>https://emily3311.github.io/tingye-player/</link>
+    <description>由听页制作的个人听书音频。</description>
+    <language>zh-cn</language>
+    <atom:link href="https://emily3311.github.io/tingye-player/feed.xml" rel="self" type="application/rss+xml" />
+    <itunes:author>听页</itunes:author>
+    <itunes:block>Yes</itunes:block>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Education" />
+    <itunes:image href="https://emily3311.github.io/tingye-player/cover.png" />
+  </channel>
+</rss>
