@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>听页 · 我的听书</title>
+    <title>Emily GO GO GO</title>
     <link>https://emily3311.github.io/tingye-player/</link>
-    <description>由听页制作的个人听书音频。</description>
+    <description>由Emily GO GO GO制作的个人听书音频。</description>
     <language>zh-cn</language>
     <atom:link href="https://emily3311.github.io/tingye-player/feed.xml" rel="self" type="application/rss+xml" />
-    <itunes:author>听页</itunes:author>
+    <itunes:author>Emily GO GO GO</itunes:author>
     <itunes:block>Yes</itunes:block>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:category text="Education" />
-    <itunes:image href="https://emily3311.github.io/tingye-player/cover.png" />
+    <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
       <title>《酒吧长谈》完整讲解</title>
       <guid isPermaLink="false">urn:tingye:episode:25751d42fa63433abf30f48980b7b3fa</guid>
       <pubDate>Fri, 16 Oct 2026 10:11:21 GMT</pubDate>
-      <description>由听页制作的听书音频。朗读音色：晓晓。</description>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
       <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/25751d42fa63433abf30f48980b7b3fa.mp3" length="76183341" type="audio/mpeg" />
       <itunes:duration>4761</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
@@ -25,7 +25,7 @@
       <title>试听 · 把读书变成一个小行动</title>
       <guid isPermaLink="false">urn:tingye:episode:c27619cc5fbe440d8ccb85cf296fcfc9</guid>
       <pubDate>Fri, 16 Oct 2026 07:44:05 GMT</pubDate>
-      <description>由听页制作的听书音频。朗读音色：CosyVoice · 示例音色。</description>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：CosyVoice · 示例音色。</description>
       <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/c27619cc5fbe440d8ccb85cf296fcfc9.mp3" length="1013037" type="audio/mpeg" />
       <itunes:duration>63</itunes:duration>
       <itunes:explicit>false</itunes:explicit>

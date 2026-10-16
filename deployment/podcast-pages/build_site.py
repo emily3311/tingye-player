@@ -19,7 +19,7 @@ import xml.etree.ElementTree as ET
 REPOSITORY = 'emily3311/tingye-player'
 SITE = 'https://emily3311.github.io/tingye-player'
 MAX_BYTES = 1_000_000_000  # conservative decimal 1 GB, strictly less
-STATIC = ('index.html', 'cover.png', 'robots.txt', '.nojekyll', 'README.md')
+STATIC = ('index.html', 'cover.png', 'cover-emily-go-go-go.png', 'robots.txt', '.nojekyll', 'README.md')
 ASSET = re.compile(r'https://github\.com/emily3311/tingye-player/releases/download/'
                    r'audio-\d{4}-(?:0[1-9]|1[0-2])/([A-Za-z0-9][A-Za-z0-9_-]{0,127})\.mp3\Z')
 
