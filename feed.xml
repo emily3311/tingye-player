@@ -13,6 +13,15 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《心理治疗如何改变人》完整讲解</title>
+      <guid isPermaLink="false">urn:tingye:episode:33b43fe1d733401fbf67bce8c54a3901</guid>
+      <pubDate>Fri, 16 Oct 2026 15:04:29 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/33b43fe1d733401fbf67bce8c54a3901.mp3" length="64939053" type="audio/mpeg" />
+      <itunes:duration>4059</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《贪婪的多巴胺》完整讲解</title>
       <guid isPermaLink="false">urn:tingye:episode:7a41ac8e1c354837ab26b7c633ec042f</guid>
       <pubDate>Fri, 16 Oct 2026 15:04:29 GMT</pubDate>
