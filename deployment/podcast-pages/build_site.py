@@ -8,9 +8,12 @@ import argparse
 from contextlib import closing
 from http.client import HTTPException
 import io
+import json
+import math
 from pathlib import Path
 import re
 import shutil
+import subprocess
 import tempfile
 from urllib.parse import urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
@@ -69,7 +72,31 @@ def _download(url, target, expected, fetch):
                 raise BuildError('音频下载三次仍未成功或长度不符；未部署任何新文件。') from None
 
 
-def build_site(source, destination, *, fetch=fetch_release, max_bytes=MAX_BYTES):
+def compact_mp3(source, target):
+    """Make a speech copy while retaining the canonical Release asset."""
+    def duration(path):
+        result = subprocess.run(['ffprobe', '-v', 'error', '-show_entries',
+            'format=duration', '-of', 'json', str(path)], check=True,
+            capture_output=True, text=True, timeout=60)
+        value = float(json.loads(result.stdout)['format']['duration'])
+        if not math.isfinite(value) or value <= 0:
+            raise ValueError('Invalid duration')
+        return value
+    try:
+        before = duration(source)
+        subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-xerror', '-y', '-i', str(source),
+            '-map', '0:a:0', '-vn', '-ar', '24000', '-ac', '1', '-codec:a',
+            'libmp3lame', '-b:a', '64k', str(target)], check=True,
+            capture_output=True, timeout=max(120, before))
+        if abs(duration(target) - before) > 1:
+            raise ValueError('Duration changed')
+        subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-xerror', '-i', str(target),
+            '-f', 'null', '-'], check=True, capture_output=True, timeout=max(120, before))
+    except (OSError, subprocess.SubprocessError, ValueError, KeyError):
+        raise BuildError('播放副本转码或完整性检查失败，未部署任何新文件。') from None
+
+
+def build_site(source, destination, *, fetch=fetch_release, max_bytes=MAX_BYTES, compact_audio=False):
     source, destination = Path(source).resolve(), Path(destination).absolute()
     if destination.is_symlink() or destination.resolve() == source or destination.resolve() in source.parents:
         raise BuildError('构建输出目录无效。')
@@ -125,7 +152,7 @@ def build_site(source, destination, *, fetch=fetch_release, max_bytes=MAX_BYTES)
                 raise BuildError('公开站点文件格式无效。')
             files.append((file, name))
             total += file.stat().st_size
-    if total >= max_bytes:
+    if total >= max_bytes and not compact_audio:
         raise BuildError('站点必须严格小于 1 GB；请减少音频或改用专用播客托管。未部署部分内容。')
     destination.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='.podcast-pages-', dir=destination.parent) as temporary:
@@ -134,8 +161,25 @@ def build_site(source, destination, *, fetch=fetch_release, max_bytes=MAX_BYTES)
         for file, name in files:
             shutil.copyfile(file, staging/name)
         (staging/'feed.xml').write_bytes(rendered)
-        for url, filename, size in downloads:
-            _download(url, staging/'audio'/filename, size, fetch)
+        manifest = {}
+        for item, (url, filename, size) in zip(items, downloads):
+            if compact_audio:
+                original = Path(temporary)/filename
+                _download(url, original, size, fetch)
+                target = staging/'audio'/filename
+                target.parent.mkdir(exist_ok=True)
+                compact_mp3(original, target)
+                original.unlink()
+                media_url = f'{SITE}/audio/{filename}'
+                length = target.stat().st_size
+                item.find('enclosure').set('url', media_url)
+                item.find('enclosure').set('length', str(length))
+                manifest[filename[:-4]] = {'source_bytes': size, 'bytes': length, 'url': media_url}
+            else:
+                _download(url, staging/'audio'/filename, size, fetch)
+        if compact_audio:
+            (staging/'feed.xml').write_bytes(ET.tostring(tree, encoding='utf-8', xml_declaration=True))
+            (staging/'media.json').write_text(json.dumps(manifest, sort_keys=True))
         actual = sum(file.stat().st_size for file in staging.rglob('*') if file.is_file())
         if actual >= max_bytes:
             raise BuildError('完整站点超过 1 GB 限制，未部署部分内容。')
@@ -151,9 +195,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', default='.')
     parser.add_argument('--output', default='_site')
+    parser.add_argument('--compact-audio', action='store_true', help='Publish verified 64 kbps mono speech copies')
     args = parser.parse_args()
     try:
-        result = build_site(args.source, args.output)
+        result = build_site(args.source, args.output, compact_audio=args.compact_audio)
     except (BuildError, OSError) as error:
         parser.exit(1, f'播客站点构建失败：{error}\n' if isinstance(error, BuildError) else '播客站点构建失败：无法读写构建文件。\n')
     print(f"Built {result['episodes']} episode(s), {result['bytes']} bytes; canonical feed unchanged.")
