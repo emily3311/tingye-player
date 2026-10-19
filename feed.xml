@@ -13,12 +13,75 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《人生由我》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:6659118ed0a4457997416d9fe0b4d1a1</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:24 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/6659118ed0a4457997416d9fe0b4d1a1.mp3" length="92293293" type="audio/mpeg" />
+      <itunes:duration>5768</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>《成为：米歇尔·奥巴马自传》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:20514ca799da4061bbe1a9a2f4af161b</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:24 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/20514ca799da4061bbe1a9a2f4af161b.mp3" length="128996781" type="audio/mpeg" />
+      <itunes:duration>8062</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>《孤儿列车》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:874400ace488455db09c8ab1a7dac43a</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:24 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/874400ace488455db09c8ab1a7dac43a.mp3" length="113244333" type="audio/mpeg" />
+      <itunes:duration>7078</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《小小小小的火》完整讲述</title>
       <guid isPermaLink="false">urn:tingye:episode:11730c02b46645d286a70767820871d2</guid>
       <pubDate>Mon, 19 Oct 2026 14:12:23 GMT</pubDate>
       <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
       <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/11730c02b46645d286a70767820871d2.mp3" length="115241517" type="audio/mpeg" />
       <itunes:duration>7202</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>《美国佬》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:db73cb771ba24d9fa703e851bdfcb970</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:23 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/db73cb771ba24d9fa703e851bdfcb970.mp3" length="160177965" type="audio/mpeg" />
+      <itunes:duration>10011</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>《潜意识的力量》完整讲述 · 重做版</title>
+      <guid isPermaLink="false">urn:tingye:episode:81b28a970fcc4621b6ca8faeef231da8</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:23 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/81b28a970fcc4621b6ca8faeef231da8.mp3" length="87889581" type="audio/mpeg" />
+      <itunes:duration>5493</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>《新世界：灵性的觉醒》完整讲述 · 重做版</title>
+      <guid isPermaLink="false">urn:tingye:episode:a256dfb781c94bfab2b0aa88dfa72f10</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:23 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/a256dfb781c94bfab2b0aa88dfa72f10.mp3" length="77799213" type="audio/mpeg" />
+      <itunes:duration>4862</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>《你的误区》完整讲述 · 重做版</title>
+      <guid isPermaLink="false">urn:tingye:episode:62dffb15594a43ec804097008acbdc16</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:23 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/62dffb15594a43ec804097008acbdc16.mp3" length="61076397" type="audio/mpeg" />
+      <itunes:duration>3817</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
