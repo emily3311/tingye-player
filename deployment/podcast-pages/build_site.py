@@ -86,7 +86,7 @@ def compact_mp3(source, target):
         before = duration(source)
         subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-xerror', '-y', '-i', str(source),
             '-map', '0:a:0', '-vn', '-ar', '24000', '-ac', '1', '-codec:a',
-            'libmp3lame', '-b:a', '64k', str(target)], check=True,
+            'libmp3lame', '-b:a', '48k', str(target)], check=True,
             capture_output=True, timeout=max(120, before))
         if abs(duration(target) - before) > 1:
             raise ValueError('Duration changed')
@@ -195,7 +195,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', default='.')
     parser.add_argument('--output', default='_site')
-    parser.add_argument('--compact-audio', action='store_true', help='Publish verified 64 kbps mono speech copies')
+    parser.add_argument('--compact-audio', action='store_true', help='Publish verified 48 kbps mono speech copies')
     args = parser.parse_args()
     try:
         result = build_site(args.source, args.output, compact_audio=args.compact_audio)
