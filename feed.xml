@@ -13,6 +13,15 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《山茶文具店》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:8d362a9f95da4e1787a2334565a5efd9</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:24 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/8d362a9f95da4e1787a2334565a5efd9.mp3" length="94050477" type="audio/mpeg" />
+      <itunes:duration>5878</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《人生由我》完整讲述</title>
       <guid isPermaLink="false">urn:tingye:episode:6659118ed0a4457997416d9fe0b4d1a1</guid>
       <pubDate>Mon, 19 Oct 2026 14:12:24 GMT</pubDate>
@@ -28,6 +37,15 @@
       <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
       <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/20514ca799da4061bbe1a9a2f4af161b.mp3" length="128996781" type="audio/mpeg" />
       <itunes:duration>8062</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>《美丽的世界，你在哪里》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:0975814bf3274aca9e1544588c707997</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:24 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/0975814bf3274aca9e1544588c707997.mp3" length="116922285" type="audio/mpeg" />
+      <itunes:duration>7308</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
@@ -55,6 +73,15 @@
       <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
       <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/db73cb771ba24d9fa703e851bdfcb970.mp3" length="160177965" type="audio/mpeg" />
       <itunes:duration>10011</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>《给青年诗人的十封信》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:e6ff07f3755e4aa89e68121237fe9447</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:23 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/e6ff07f3755e4aa89e68121237fe9447.mp3" length="81538989" type="audio/mpeg" />
+      <itunes:duration>5096</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
