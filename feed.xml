@@ -13,6 +13,15 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《小小小小的火》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:11730c02b46645d286a70767820871d2</guid>
+      <pubDate>Mon, 19 Oct 2026 14:12:23 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/11730c02b46645d286a70767820871d2.mp3" length="115241517" type="audio/mpeg" />
+      <itunes:duration>7202</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《新世界：灵性的觉醒》完整讲解</title>
       <guid isPermaLink="false">urn:tingye:episode:fb65ac4e02d7419fa8a641f6f96eb56e</guid>
       <pubDate>Sun, 18 Oct 2026 10:55:25 GMT</pubDate>
