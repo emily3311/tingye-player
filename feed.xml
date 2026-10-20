@@ -13,6 +13,46 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《坟》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:a479255ff4724843801faa6513d2575a</guid>
+      <pubDate>Tue, 20 Oct 2026 13:15:03 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。
+
+章节导航
+00:00:00 为什么要留下一座坟
+00:02:09 人也有自己的来路
+00:06:24 科学的果实从哪里来
+00:11:59 文明为什么也会走偏
+00:17:17 让沉默的人听见自己的声音
+00:20:46 拜伦的反抗与他的矛盾
+00:24:29 雪莱把希望写进失败
+00:26:59 同一种火传到不同的人心里
+00:31:06 自由之歌与未到来的声音
+00:33:08 谁在制造节烈
+00:37:11 父母能不能放下拥有孩子的权利
+00:41:10 从瓦舍里的说话到流传的小说
+00:44:42 娜拉的门外还有什么
+00:48:41 花还没长出来的时候
+00:50:28 塔倒了，故事还在
+00:51:56 一撮胡须也不得自由
+00:54:09 照相机前后的人
+00:57:11 谁在一点点拿走一座塔
+00:59:35 古镜照出的胆量
+01:01:40 被留下的生命，被拿走的意志
+01:04:08 一个人怎样把损失当成恩典
+01:08:18 愤怒为什么还需要勇气
+01:11:02 一句骂语的不同来路
+01:13:00 眼睛睁开以后，还要敢看
+01:15:45 牙齿上的旧伤，报纸上的新伤
+01:20:10 把人藏起来，就能解决问题吗
+01:22:34 受过压抑的人，也可能继续压抑别人
+01:25:59 公平怎样会成为单方面的约束
+01:31:00 那些钱上还留着体温</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/a479255ff4724843801faa6513d2575a.mp3" length="92014893" type="audio/mpeg" />
+      <itunes:duration>5751</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《中性》完整讲述</title>
       <guid isPermaLink="false">urn:tingye:episode:911d757fafa04f3eb8848cf06dbe15f5</guid>
       <pubDate>Tue, 20 Oct 2026 07:39:00 GMT</pubDate>
