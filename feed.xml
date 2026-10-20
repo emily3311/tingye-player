@@ -13,6 +13,45 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《中性》完整讲述</title>
+      <guid isPermaLink="false">urn:tingye:episode:911d757fafa04f3eb8848cf06dbe15f5</guid>
+      <pubDate>Tue, 20 Oct 2026 07:39:00 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。
+
+章节导航
+00:00:00 一把银匙，两次出生
+00:02:43 山村里的姐弟
+00:04:45 火海里的求婚
+00:07:07 在船上重新认识
+00:09:13 熔化锅里的移民
+00:11:28 冰层下的一辆汽车
+00:13:21 地下室和一间养蚕房
+00:15:30 隔着通风口的声音
+00:17:25 两扇窗之间的小夜曲
+00:19:24 银幕上的一个误认
+00:21:30 一切从卵开始
+00:23:46 家庭电影里的小女孩
+00:25:56 餐厅烧起来了
+00:28:08 米德尔塞克斯的房子
+00:30:16 没有到来的青春期
+00:32:11 女子学校的边缘
+00:34:02 母女共享的秘密仪式
+00:35:52 那个没有名字的人
+00:37:47 爱情和一张妇检预约
+00:39:46 假月经和真的嫉妒
+00:41:49 一场追逐，一台拖拉机
+00:44:03 医生怎样认识一个人
+00:46:10 在词典里看见怪物
+00:48:28 到西部去
+00:50:50 旧金山没有现成的自由
+00:52:53 水箱里的身体，屋里的佐拉
+00:56:27 父亲最后的一次交易
+00:58:59 回到家门口</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/911d757fafa04f3eb8848cf06dbe15f5.mp3" length="61644333" type="audio/mpeg" />
+      <itunes:duration>3853</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《山茶文具店》完整讲述</title>
       <guid isPermaLink="false">urn:tingye:episode:8d362a9f95da4e1787a2334565a5efd9</guid>
       <pubDate>Mon, 19 Oct 2026 14:12:24 GMT</pubDate>
