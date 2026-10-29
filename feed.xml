@@ -13,6 +13,49 @@
     <itunes:category text="Education" />
     <itunes:image href="https://emily3311.github.io/tingye-player/cover-emily-go-go-go.png" />
     <item>
+      <title>《酒吧长谈》完整讲述 · 重做版</title>
+      <guid isPermaLink="false">urn:tingye:episode:05fcf3d4c95a469b98591fffda74099a</guid>
+      <pubDate>Thu, 29 Oct 2026 17:26:26 GMT</pubDate>
+      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。
+
+章节导航
+00:00:00 一只走失的狗
+00:03:30 家里的少爷
+00:06:07 从钦恰来的卡约
+00:08:38 大学里的三个人
+00:11:44 阿玛莉娅和特里尼达
+00:15:31 政府需要的人
+00:18:42 没有胜利的罢课
+00:22:01 两份新工作
+00:24:41 一个官员的白天
+00:28:02 新闻和沼泽
+00:30:25 旧情人的星期日
+00:33:38 风向变了
+00:36:54 缪斯死了
+00:39:51 儿子听到的秘密
+00:43:14 没打起来的政变
+00:46:54 没有卡约的房子
+00:50:52 一个出生，一个死亡
+00:53:48 阿雷基帕的一夜
+00:58:17 另一场谈话
+01:00:00 生活还在往前
+01:03:04 车祸与护士
+01:05:41 说不出口的人
+01:09:03 一封来自伊卡的信
+01:12:21 家门里面
+01:15:43 普卡尔帕的账
+01:19:14 阿玛莉娅的最后一天
+01:21:22 不能寄出的信
+01:23:52 父亲走了
+01:26:06 不要的遗产
+01:27:52 回来的卡约
+01:29:38 最后一次离开
+01:33:26 酒桌边的余声</description>
+      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/05fcf3d4c95a469b98591fffda74099a.mp3" length="92719149" type="audio/mpeg" />
+      <itunes:duration>5795</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>《坟》完整讲述</title>
       <guid isPermaLink="false">urn:tingye:episode:a479255ff4724843801faa6513d2575a</guid>
       <pubDate>Tue, 20 Oct 2026 13:15:03 GMT</pubDate>
@@ -1159,58 +1202,6 @@
 01:50:21 带着自己的问题回到原书</description>
       <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/e296634fa77344edaf26c54f4e9ccc04.mp3" length="107045037" type="audio/mpeg" />
       <itunes:duration>6690</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>《酒吧长谈》完整讲解</title>
-      <guid isPermaLink="false">urn:tingye:episode:25751d42fa63433abf30f48980b7b3fa</guid>
-      <pubDate>Fri, 16 Oct 2026 10:11:21 GMT</pubDate>
-      <description>由Emily GO GO GO制作的听书音频。朗读音色：晓晓。
-
-章节导航（时间约值）
-00:00:00 先从一个普通的下午说起
-00:01:06 他找回了狗，却碰到了过去
-00:02:39 他想找到哪一个转折点
-00:04:20 作者为什么要这样写
-00:05:51 先认识五个人就够了
-00:07:35 为什么读着读着会迷路
-00:09:19 后面几集会怎样走
-00:10:37 把问题带回自己的生活
-00:12:54 他想知道自己是怎样变成今天的
-00:14:04 找到同伴，也可能继续不敢说真话
-00:17:03 有时，大道理替我们藏住了小心事
-00:19:59 父亲救了他，也让矛盾变得无法回避
-00:22:46 离开，是一项决定的开始
-00:25:24 把真实的自己带进下一步
-00:26:56 她终于觉得日子好了一点
-00:28:37 一点照顾能改变多少东西
-00:31:07 房子里的安稳由谁决定
-00:33:06 重新心动以后旧事还在
-00:35:16 她要的是被认真对待
-00:38:09 带着自己的感受读下去
-00:39:41 庇护撤走以后
-00:40:44 有权发号施令，也要依靠别人
-00:42:12 一场被安排的冲突
-00:45:11 下台的人和离不开的人
-00:47:08 谁的生活可以被随便讲述
-00:49:46 把安全放回自己的生活
-00:51:16 把这一集留下来
-00:52:46 把目光移回家里
-00:53:38 保护一个人，也要听见她
-00:58:01 有些话，会来不及说
-01:00:20 忠诚为什么这么难松开
-01:03:08 还有一个人正在承受
-01:04:31 把感情和决定分开看
-01:05:58 把分开的几条线接回来
-01:06:43 同一张桌子，坐着不同的过去
-01:08:42 一个人可以在两种位置上生活
-01:10:23 真相为什么没有自动带来轻松
-01:12:13 记忆也有自己的处境
-01:13:44 这本书能帮助什么，又不能包办什么
-01:15:13 给自己一周，慢慢读进去
-01:16:58 五个问题，看看我们留下了什么</description>
-      <enclosure url="https://github.com/emily3311/tingye-player/releases/download/audio-2026-10/25751d42fa63433abf30f48980b7b3fa.mp3" length="76183341" type="audio/mpeg" />
-      <itunes:duration>4761</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
